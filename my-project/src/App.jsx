@@ -2,6 +2,9 @@ import { useState } from 'react';
 import './App.css'
 //TODO: Aqui se llama al componente
 import Menu from './components/Menu';
+import Condicional from './components/condicional/condicion';
+import listas from './components/listas/listas';
+import Listas from './components/listas/listas';
 
 function App() {
   //let number = 0;
@@ -51,8 +54,11 @@ function App() {
         <h2>{myvalue}</h2>
         <input type="text" placeholder={mytext} value={myvalue} onChange={handleInput}/>
       </div>
+
+      <Condicional></Condicional>
+      <Listas></Listas>
     </div>
   )
 }
 
-export default App
+export default App;
