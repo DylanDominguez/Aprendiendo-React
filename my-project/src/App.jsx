@@ -3,7 +3,6 @@ import './App.css'
 //TODO: Aqui se llama al componente
 import Menu from './components/Menu';
 import Condicional from './components/condicional/condicion';
-import listas from './components/listas/listas';
 import Listas from './components/listas/listas';
 
 function App() {
